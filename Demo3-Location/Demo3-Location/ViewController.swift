@@ -24,6 +24,8 @@ class ViewController: UIViewController,CLLocationManagerDelegate{
     }
     
     func initLocationManager(){
+        
+        //need register permission in the Info.plist
         locationManager = CLLocationManager()
         locationManager?.delegate = self
         locationManager?.desiredAccuracy = kCLLocationAccuracyBest
@@ -87,11 +89,13 @@ class ViewController: UIViewController,CLLocationManagerDelegate{
         
         if let tempPlaceMark = placeMark {
             
-            let locality = tempPlaceMark.locality
+            let thoroughfare = tempPlaceMark.thoroughfare
+            let subLocality = tempPlaceMark.subLocality
             let area = tempPlaceMark.administrativeArea
+            let locality = tempPlaceMark.locality
             let country = tempPlaceMark.country
             
-            self.labelAddress?.text = country! + locality! + area!
+            self.labelAddress?.text = country! + area! + locality! + subLocality! + thoroughfare!
             
         }
         

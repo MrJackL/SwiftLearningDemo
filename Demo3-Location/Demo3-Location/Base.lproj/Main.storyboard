@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xr4-Lc-SWU">
-                                <rect key="frame" x="100" y="101" width="400" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xr4-Lc-SWU">
+                                <rect key="frame" x="50" y="101" width="500" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdZ-BT-ppi">
-                                <rect key="frame" x="100" y="167" width="400" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="MdZ-BT-ppi">
+                                <rect key="frame" x="50" y="167" width="500" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -40,14 +40,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="xr4-Lc-SWU" secondAttribute="trailing" constant="100" id="ASs-I9-dk0"/>
-                            <constraint firstAttribute="trailing" secondItem="MdZ-BT-ppi" secondAttribute="trailing" constant="100" id="M9e-qS-Emz"/>
+                            <constraint firstAttribute="trailing" secondItem="xr4-Lc-SWU" secondAttribute="trailing" constant="50" id="ASs-I9-dk0"/>
+                            <constraint firstAttribute="trailing" secondItem="MdZ-BT-ppi" secondAttribute="trailing" constant="50" id="M9e-qS-Emz"/>
                             <constraint firstItem="ZhZ-Hy-X69" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="230" id="af8-fV-LFC"/>
                             <constraint firstAttribute="trailing" secondItem="ZhZ-Hy-X69" secondAttribute="trailing" constant="230" id="dgk-qp-YTy"/>
                             <constraint firstItem="MdZ-BT-ppi" firstAttribute="top" secondItem="xr4-Lc-SWU" secondAttribute="bottom" constant="46" id="goM-H6-QBk"/>
-                            <constraint firstItem="xr4-Lc-SWU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="moW-tR-rf9"/>
+                            <constraint firstItem="xr4-Lc-SWU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="moW-tR-rf9"/>
                             <constraint firstItem="xr4-Lc-SWU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="101" id="ouj-Bt-0W1"/>
-                            <constraint firstItem="MdZ-BT-ppi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="pkL-Bm-zzW"/>
+                            <constraint firstItem="MdZ-BT-ppi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="pkL-Bm-zzW"/>
                             <constraint firstItem="ZhZ-Hy-X69" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qyq-8D-lgR"/>
                             <constraint firstItem="ZhZ-Hy-X69" firstAttribute="top" secondItem="MdZ-BT-ppi" secondAttribute="bottom" constant="60" id="rYK-GH-g4V"/>
                         </constraints>
